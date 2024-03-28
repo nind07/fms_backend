@@ -7,7 +7,7 @@ const env = process.env.NODE_ENV || 'development';
 const config = require('../config/config');
 require('dotenv').config()
 const db = {};
-
+// commit
 let sequelize;
 sequelize = new Sequelize({
     database: "fuel_management_system",
